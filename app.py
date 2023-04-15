@@ -6,7 +6,7 @@ from instagram_private_api import Client, ClientCompatPatch
 pip install instagram-private-api
 
 # Set up the client with your Instagram API credentials
-api = Client(username='your_username', password='your_password')
+api = Client(username='brosendvideo', password='agoodpassword')
 # Authenticate the client using the ClientCompatPatch method
 api = ClientCompatPatch(api)
 
